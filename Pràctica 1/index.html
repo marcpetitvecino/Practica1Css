@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src = "media/js/jquery.min.js"></script>
+    <script type="text/javascript" src = "https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="media/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Pràctica 1</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-5 col-sm-5 col-xs-5" id="logo" >
+
+            <img src="media/imgs/logo_akemi.png" alt="logo akemi">
+
+            <button id="botomenumobil"><div class="botocutre"></div>
+                <div class="botocutre"></div>
+                <div class="botocutre" ></div>
+                </button>
+
+        </div>
+
+        <div id="contenidormenumobil">
+
+            <div id="menumobil">
+
+            <ul id="box1mobil">
+
+                <li>Products</li>
+                <li>Brands</li>
+                <li>Akemi sets</li>
+
+            </ul>
+
+            <ul id="box2mobil">
+
+                <li>About us</li>
+                <li>Register</li>
+                <li>Login</li>
+
+            </ul>
+
+            <ul id="cartmobil">
+
+                <li class="white">Cart</li>
+                <li id="numeroarticlesmobil">0 items</li>
+                <li id="dinerstotalsmobil">0.0€</li>
+
+            </ul>
+
+        </div>
+
+        </div>
+        
+        <div class="col-md-1 col-sm-1 col-xs-1" id="separacio">
+
+            <!--Espai d'una columna-->
+
+        </div>
+
+        <div class="col-md-2 col-sm-2 col-xs-2" id="headerbox1">
+
+            <ul>
+
+                <li>Products</li>
+                <li>Brands</li>
+                <li>Akemi sets</li>
+
+            </ul>
+
+        </div>
+
+        <div class="col-md-2 col-sm-2 col-xs-2" id="headerbox2">
+
+            <ul>
+
+                <li>About us</li>
+                <li>Register</li>
+                <li>Login</li>
+
+            </ul>
+            
+        </div>
+        
+        <div class="col-md-2 col-sm-2 col-xs-2" id="cart">
+
+            <li class="white">Cart</li>
+            <li id="numeroarticles">0 items</li>
+            <li id="dinerstotals">0.0€</li>
+            
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12 col-sm-12 col-xs-12" id="banner">
+
+            <img src="media/imgs/banner1.png" alt="scissors">
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6" id="productes">
+
+            <img src="media/imgs/new_products.png" alt="new products">
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-3 col-sm-6 col-xs-12" id="offer1">
+
+            <img src="media/imgs/offer1.png" alt="offer1" id="click1">
+            <p class="text-md-left">kaweco sport capless roller pen and pencil set in pouch white</p>
+
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12" id="offer2">
+
+            <img src="media/imgs/offer2.png" alt="offer2" id="click2">
+            <p>hacoa masking tape holder</p>
+            <img src="media/imgs/sign_new_offer.png" class="etiqueta">
+
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12" id="offer3">
+
+            <img src="media/imgs/offer3.png" alt="offer3" id="click3">
+            <p>hacoa black walnut business card holder</p>
+            <img src="media/imgs/sign_new_offer_purchase.png" class="etiquetab">
+
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12" id="offer4">
+
+            <img src="media/imgs/offer4.png" alt="offer4" id="click4">
+            <p>postalc legal envelope navy</p>
+            <img src="media/imgs/sign_offer.png" class="etiquetac">
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="modal" id="modal1">
+
+    <div class="modal-content">
+
+        <img src="media/imgs/offer1.png" class="imgpopup">
+        <p class="textpopup">kaweco sport capless roller pen and pencil set in pouch white</p>
+        <p class="preupopup">15.00€</p>
+        <select class="selectpopup">
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+
+        </select>
+        <button value="comprar" class="buttonpopup">comprar</button>
+        <span class="close1">&times;</span>
+
+    </div>
+
+</div>
+
+<div class="modal" id="modal2">
+
+    <div class="modal-content">
+
+         <img src="media/imgs/offer2.png" class="imgpopup">
+        <p class="textpopup">hacoa masking tape holder</p>
+        <p class="preupopup">22.00€</p>
+        <select class="selectpopup">
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+
+        </select>
+        <button value="comprar" class="buttonpopup">comprar</button>
+
+        <span class="close2">&times;</span>
+
+    </div>
+
+</div>
+
+<div class="modal" id="modal3">
+
+    <div class="modal-content">
+
+         <img src="media/imgs/offer3.png" class="imgpopup">
+        <p class="textpopup">hacoa black walnut business card holder</p>
+        <p class="preupopup">23.54€</p>
+        <select class="selectpopup">
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+
+        </select>
+        <button value="comprar" class="buttonpopup">comprar</button>
+
+        <span class="close3">&times;</span>
+
+    </div>
+
+</div>
+
+<div class="modal" id="modal4">
+
+    <div class="modal-content">
+
+         <img src="media/imgs/offer4.png" class="imgpopup">
+        <p class="textpopup">postalc legal envelope navy</p>
+        <p class="preupopup">14.77</p>
+        <select class="selectpopup">
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+
+        </select>
+        <button value="comprar" class="buttonpopup">comprar</button>
+
+        <span class="close4">&times;</span>
+
+    </div>
+
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>
