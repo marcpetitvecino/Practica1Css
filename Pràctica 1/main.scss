@@ -386,6 +386,7 @@ p {
 #botomenumobil {
 
     display: none;
+    z-index: 3;
 
 }
 
@@ -468,6 +469,7 @@ p {
         position: relative;
         top: 20px;
         left: 30px;
+        margin-top: -10px;
     }
 
     .etiqueta {
@@ -490,8 +492,14 @@ p {
 
     #logo {
 
-        padding-bottom: 15px;
-        padding-right: 0px;
+        padding : {
+
+            bottom: 15px;
+            right: 0px;
+            top: 20px;
+
+        }
+        
         width: 95%;
 
     }

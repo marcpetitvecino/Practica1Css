@@ -238,7 +238,8 @@ p {
     margin-top: -10px; }
 
 #botomenumobil {
-  display: none; }
+  display: none;
+  z-index: 3; }
 
 .botocutre {
   width: 35px;
@@ -285,7 +286,8 @@ p {
     padding-left: 75px;
     position: relative;
     top: 20px;
-    left: 30px; }
+    left: 30px;
+    margin-top: -10px; }
 
   .etiqueta {
     display: none; }
@@ -299,6 +301,7 @@ p {
   #logo {
     padding-bottom: 15px;
     padding-right: 0px;
+    padding-top: 20px;
     width: 95%; } }
 @media only screen and (max-width: 767px) and (min-width: 577px) {
   /* Tablets */

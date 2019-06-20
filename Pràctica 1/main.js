@@ -124,3 +124,4 @@ botomobil.onclick = function() {
     menumobil.classList.toggle("show");
 
 }
+
